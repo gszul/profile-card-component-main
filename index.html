@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
@@ -14,11 +17,15 @@
   </style>
 </head>
 <body>
+  <div class="bubble top" aria-hidden="true"></div>
+  <div class="bubble bottom" aria-hidden="true"></div>
   <main>
     <section class="hero">
-      <img src="./images/image-victor.jpg" alt="hero photo">
-      <h1>Victor Crest<span class="age">26</span></h1>
-      <h3 class="city">London</h3>
+      <figure>
+        <img class="photo" src="./images/image-victor.jpg" alt="hero photo">
+      </figure>
+      <h1 class="name">Victor Crest <span class="age">26</span></h1>
+      <p class="city">London</p>
     </section>
     <section class="stats">
       <div>
